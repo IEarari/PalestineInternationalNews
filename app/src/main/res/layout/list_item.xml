@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/item_height"
+    android:paddingStart="@dimen/item_padding"
+    android:paddingLeft="@dimen/item_padding"
+    android:paddingRight="@dimen/item_padding"
+    android:paddingEnd="@dimen/item_padding"
+    android:background="@color/background">
+
+    <TextView
+        android:id="@+id/section_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Politica"
+        android:textSize="@dimen/text_size_small"
+        android:textColor="@color/textColor"/>
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Uk to be out of the EU by March 2019, all the London firms will leave the capital ."
+        android:maxLines="3"
+        android:textSize="@dimen/text_size_big"
+        android:textStyle="bold"
+        android:textColor="@color/textColor"/>
+
+
+    <TextView
+        android:id="@+id/data"
+        android:layout_weight="1"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:gravity="bottom"
+        android:layout_gravity="end"
+        android:text="2017-07-07"
+        android:textSize="@dimen/text_size_small"
+        android:textColor="@color/textColor"/>
+
+</LinearLayout>
